@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+    font-family: 'Festive', cursive;
+    color:#472C60 ;
+}
+body {
+  background: url("birthday.jpg");
+  background-repeat: none;
+  background-size: cover;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 3em;
+  font-weight: bolder;
+  font-family: 'Birthstone', cursive;
+  backdrop-filter: blur(5px);
+  color: #AF222D;
+}
+
+.countdown {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.days {
+  padding: 40px;
+}
+.hours {
+  padding: 40px;
+}
+.min {
+  padding: 40px;
+}
+.sec {
+  padding: 40px;
+}
